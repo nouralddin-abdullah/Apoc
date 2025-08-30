@@ -553,7 +553,7 @@ local CoreGui = getService("CoreGui")
 
 -- Interface Management
 
-local Apoc = useStudio and script.Parent:FindFirstChild('Apoc') or game:GetObjects("rbxassetid://10804731440")[1]
+local Apoc = useStudio and script.Parent:FindFirstChild('Apoc') or game:GetObjects("rbxassetid://138380498704960")[1]
 local buildAttempts = 0
 local correctBuild = false
 local warned
@@ -3106,7 +3106,7 @@ warn('Check docs.sirius.menu for help with Apoc specific development.')
 					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
 					Toggle.Title.Text = "Callback Error"
 					print("Apoc | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
-warn('Check docs.sirius.menu for help with Apoc specific development.')
+warn('Check apoc for help with Apoc specific development.')
 					task.wait(0.5)
 					Toggle.Title.Text = ToggleSettings.Name
 					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
