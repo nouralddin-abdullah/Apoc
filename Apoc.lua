@@ -1575,8 +1575,8 @@ Try rejoining and then run the script twice.', Image = 4335487866, Duration = 15
 				task.wait(math.random(180, 600))
 				ApocLibrary:Notify({
 		Title = "Apoc Interface",
-					Content = "Enjoying this UI library? Find it at sirius.menu/discord",
-					Duration = 7,
+					Content = "Enjoying this Script? Find it at Apoc discord https://discord.gg/Pvx49CJ6sr",
+					Duration = 20,
 					Image = 4370033185,
 				})
 			end
