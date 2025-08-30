@@ -1456,13 +1456,13 @@ end
 
 function ApocLibrary:CreateWindow(Settings)
 	print('creating window')
-	if Rayfield:FindFirstChild('Loading') then
-		if getgenv and not getgenv().rayfieldCached then
-			Rayfield.Enabled = true
-			Rayfield.Loading.Visible = true
+	if Apoc:FindFirstChild('Loading') then
+		if getgenv and not getgenv().apocCached then
+			Apoc.Enabled = true
+			Apoc.Loading.Visible = true
 
 			task.wait(1.4)
-			Rayfield.Loading.Visible = false
+			Apoc.Loading.Visible = false
 		end
 	end
 
@@ -1495,8 +1495,8 @@ Try rejoining and then run the script twice.', Image = 4335487866, Duration = 15
 		end
 	end
 
-	if isfolder and not isfolder(RayfieldFolder) then
-	makefolder(RayfieldFolder)
+	if isfolder and not isfolder(ApocFolder) then
+	makefolder(ApocFolder)
 	end
 
 	-- Attempt to report an event to analytics
