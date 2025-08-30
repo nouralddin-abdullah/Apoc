@@ -166,52 +166,52 @@ local ApocLibrary = {
 	Flags = {},
 	Theme = {
 		Default = {
-    -- Text & Main Colors (Warm Tones)
-    TextColor = Color3.fromRGB(245, 245, 245),
-    Background = Color3.fromRGB(45, 35, 30),          -- Dark, warm brown instead of black
-    Topbar = Color3.fromRGB(60, 45, 40),              -- Lighter warm brown
-    Shadow = Color3.fromRGB(30, 25, 20),              -- Deep brown shadow
+    -- Text & Main Colors (Built from #bc5c44)
+    TextColor = Color3.fromRGB(240, 230, 225),         -- Warm off-white for text
+    Background = Color3.fromRGB(60, 30, 22),           -- Very dark, rich red-brown
+    Topbar = Color3.fromRGB(188, 92, 68),              -- Your exact brand color
+    Shadow = Color3.fromRGB(40, 20, 15),               -- Deep red-brown shadow
 
     -- Notifications
-    NotificationBackground = Color3.fromRGB(50, 40, 35),
-    NotificationActionsBackground = Color3.fromRGB(70, 55, 50),
+    NotificationBackground = Color3.fromRGB(75, 40, 30),
+    NotificationActionsBackground = Color3.fromRGB(100, 50, 40),
 
     -- Tabs
-    TabBackground = Color3.fromRGB(70, 55, 50),
-    TabStroke = Color3.fromRGB(85, 70, 65),
-    TabBackgroundSelected = Color3.fromRGB(186, 95, 69), -- Brand Orange
-    TabTextColor = Color3.fromRGB(220, 220, 220),
+    TabBackground = Color3.fromRGB(100, 60, 50),
+    TabStroke = Color3.fromRGB(120, 75, 65),
+    TabBackgroundSelected = Color3.fromRGB(205, 105, 78), -- Lighter variant for selection
+    TabTextColor = Color3.fromRGB(220, 210, 205),
     SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
 
     -- UI Elements
-    ElementBackground = Color3.fromRGB(55, 42, 38),
-    ElementBackgroundHover = Color3.fromRGB(70, 55, 50),
-    SecondaryElementBackground = Color3.fromRGB(50, 40, 35),
-    ElementStroke = Color3.fromRGB(80, 65, 60),
-    SecondaryElementStroke = Color3.fromRGB(75, 60, 55),
+    ElementBackground = Color3.fromRGB(75, 40, 30),
+    ElementBackgroundHover = Color3.fromRGB(100, 50, 40),
+    SecondaryElementBackground = Color3.fromRGB(65, 35, 25),
+    ElementStroke = Color3.fromRGB(110, 60, 50),
+    SecondaryElementStroke = Color3.fromRGB(90, 50, 40),
 
     -- Sliders (Brand Orange Accent)
-    SliderBackground = Color3.fromRGB(186, 95, 69),
-    SliderProgress = Color3.fromRGB(186, 95, 69),
-    SliderStroke = Color3.fromRGB(200, 110, 80),
+    SliderBackground = Color3.fromRGB(188, 92, 68),
+    SliderProgress = Color3.fromRGB(188, 92, 68),
+    SliderStroke = Color3.fromRGB(205, 105, 78),
 
     -- Toggles (Brand Orange Accent)
-    ToggleBackground = Color3.fromRGB(50, 40, 35),
-    ToggleEnabled = Color3.fromRGB(186, 95, 69),
-    ToggleDisabled = Color3.fromRGB(90, 80, 75),
-    ToggleEnabledStroke = Color3.fromRGB(200, 110, 80),
-    ToggleDisabledStroke = Color3.fromRGB(110, 100, 95),
-    ToggleEnabledOuterStroke = Color3.fromRGB(110, 70, 50),
-    ToggleDisabledOuterStroke = Color3.fromRGB(70, 60, 55),
+    ToggleBackground = Color3.fromRGB(65, 35, 25),
+    ToggleEnabled = Color3.fromRGB(188, 92, 68),
+    ToggleDisabled = Color3.fromRGB(90, 55, 45),
+    ToggleEnabledStroke = Color3.fromRGB(205, 105, 78),
+    ToggleDisabledStroke = Color3.fromRGB(110, 70, 60),
+    ToggleEnabledOuterStroke = Color3.fromRGB(120, 60, 40),
+    ToggleDisabledOuterStroke = Color3.fromRGB(80, 45, 35),
 
     -- Dropdowns
-    DropdownSelected = Color3.fromRGB(70, 55, 50),
-    DropdownUnselected = Color3.fromRGB(50, 40, 35),
+    DropdownSelected = Color3.fromRGB(100, 50, 40),
+    DropdownUnselected = Color3.fromRGB(75, 40, 30),
 
     -- Input Fields
-    InputBackground = Color3.fromRGB(35, 28, 24),
-    InputStroke = Color3.fromRGB(90, 75, 70),
-    PlaceholderColor = Color3.fromRGB(170, 160, 155)
+    InputBackground = Color3.fromRGB(50, 25, 18),
+    InputStroke = Color3.fromRGB(120, 70, 60),
+    PlaceholderColor = Color3.fromRGB(180, 150, 140)
 },
 
 		Ocean = {
